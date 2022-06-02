@@ -1,0 +1,29 @@
+{
+  "name": "thunderbirds",
+  "version": "1.0.0",
+  "description": "A tale of birds - project 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mako-goblin-2022/Thunderbirds.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mako-goblin-2022/Thunderbirds/issues"
+  },
+  "homepage": "https://github.com/mako-goblin-2022/Thunderbirds#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "handlebars": "^4.7.7",
+    "nodemon": "^2.0.16"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
