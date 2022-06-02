@@ -4,7 +4,10 @@
   "description": "A tale of birds - project 1",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index --ignore data.json",
+    "lint": "eslint .",
+    "test": "jest --watchAll"
   },
   "repository": {
     "type": "git",
@@ -22,8 +25,10 @@
     "express-handlebars": "^6.0.6",
     "handlebars": "^4.7.7",
     "nodemon": "^2.0.16"
+    
   },
   "devDependencies": {
-    "jest": "^28.1.0"
+    "jest": "^28.1.0",
+    "nodemon": "^2.0.16"
   }
 }
