@@ -1,0 +1,68 @@
+{
+  "Birds": [
+    { "id": 1,
+      "name": "Daffy Duck",
+      "cartoon": "yes",
+      "image": "/images/Daffy.png",
+      "location": "USA",
+      "flight speed": "None",
+      "size": 3.5 
+    },
+    { "id": 2,
+      "name": "Donald Duck",
+      "cartoon": "yes",
+      "image": "/images/donald.png",
+      "location": "USA",
+      "flight speed": "None",
+      "size": 3
+    },
+    { "id": 3,
+      "name": "Woody Woodpecker",
+      "cartoon": "yes",
+      "image": "/images/Woody.png",
+      "location": "USA",
+      "flight speed": "None",
+      "size": 3.5 
+    },
+    { "id": 4,
+      "name": "Tweety Bird",
+      "cartoon": "yes",
+      "image": "/images/tweety.jpg",
+      "location": "USA",
+      "flight speed": 50,
+      "size": 1 
+    },
+    { "id": 5,
+      "name": "Emperor Penguin",
+      "cartoon": "No",
+      "image": "/images/emporer_Penguin.jpg",
+      "location": "Antartica",
+      "flight speed": 9,
+      "size": 11
+    },
+    { "id": 6,
+      "name": " pīwakawaka",
+      "cartoon": "No",
+      "image": "/images/pīwakawaka.jpg",
+      "location": "New Zealand",
+      "flight speed": "N/A",
+      "size": 0.5 
+    },
+    { "id": 7,
+      "name": "Lovebird",
+      "cartoon": "yes",
+      "image": "/images/Lovebird.jpg",
+      "location": "Madagascar",
+      "flight speed": 30,
+      "size": 0.51
+    },
+    { "id": 8,
+      "name": "Peacock",
+      "cartoon": "No",
+      "image": "/images/peacock.jpg",
+      "location": "Congo",
+      "flight speed": "N/A",
+      "size": 3
+    }
+  ]
+}
