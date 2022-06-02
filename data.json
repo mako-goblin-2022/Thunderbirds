@@ -53,7 +53,7 @@
       "cartoon": "yes",
       "image": "/images/Lovebird.jpg",
       "location": "Madagascar",
-      "flight_Speed" : 30,
+      "flight_Speed": 30,
       "size": 0.51
     },
     { "id": 8,
