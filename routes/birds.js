@@ -12,7 +12,7 @@ router.get('/', (req, res) => {
 
 router.get('/:id', (req, res) => {
   readBirds((birds) => {
-    const getBirds = birds.birds.find((birds) => birds.id == req.params.id)
+    const getBirds = birds.Birds.find((birds) => birds.id == req.params.id)
     res.render('details', getBirds)
   })
 })

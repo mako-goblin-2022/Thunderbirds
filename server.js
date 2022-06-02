@@ -23,9 +23,7 @@ server.get('/', (req, res) => {
   // console.log(viewData)
   // res.render('home',viewData)
   res.redirect('/bird')
-  // readBirds((birds) => {
-  //   res.render('home', birds)
-  // })
+
 })
 
 module.exports = server
