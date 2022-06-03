@@ -46,7 +46,7 @@ router.post('/:id/edit', (req, res) => {
     const data = JSON.stringify(bird, null, 2)
     fs.writeFile(path.resolve('./data.json'), data, (err) => {
       console.log(err)
-      res.redirect('/birds')
+      res.redirect('/birds/' + req.params.id)
     })
   })
 })

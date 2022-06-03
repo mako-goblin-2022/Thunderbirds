@@ -31,10 +31,11 @@ body {
 }
 
 .img-circle {
-  border-radius: 50%;
-  object-fit: contain;
-  width: 230px;
+  border-radius:50%;
+  object-fit: fill;
+  width: 180px;
   height: 230px;
+  padding: 15px;
 }
 
 .title {

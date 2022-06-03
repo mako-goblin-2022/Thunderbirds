@@ -2,7 +2,7 @@
   "Birds": [
     {
       "id": 1,
-      "name": "Daffy",
+      "name": "Daffy Dark",
       "cartoon": "yes",
       "image": "/images/Daffy.png",
       "location": "In my head",
@@ -38,12 +38,12 @@
     },
     {
       "id": 5,
-      "name": "Emperor Penguin",
+      "name": "Emperor penguin",
       "cartoon": "No",
       "image": "/images/emporer_Penguin.jpg",
       "location": "Antartica",
-      "flight_Speed": 9,
-      "size": 11
+      "flight_Speed": "9",
+      "size": "11"
     },
     {
       "id": 6,
