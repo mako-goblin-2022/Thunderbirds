@@ -14,7 +14,7 @@ server.engine('hbs', hbs.engine({ extname: 'hbs' }))
 server.set('view engine', 'hbs')
 
 // Your routes/router(s) should go here
-server.use('/bird', BirdRoutes)
+server.use('/birds', BirdRoutes)
 server.get('/', (req, res) => {
   // const viewData={
   //   title:"birds home page",
@@ -22,7 +22,7 @@ server.get('/', (req, res) => {
   // }
   // console.log(viewData)
   // res.render('home',viewData)
-  res.redirect('/bird')
+  res.redirect('/birds')
 
 })
 

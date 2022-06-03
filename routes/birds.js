@@ -18,15 +18,31 @@ router.get('/:id', (req, res) => {
 })
 router.get('/:id/edit', (req, res) => {
   readBirds((birds) => {
-    const getBirds = birds.birds.find((birds) => birds.id == req.params.id)
+    const getBirds = birds.Birds.find((birds) => birds.id == req.params.id)
     res.render('edit', getBirds)
   })
 })
 router.post('/:id/edit', (req, res) => {
   const newBird = req.body
   readBirds((bird) => {
-    const birdIndex = bird.bird.findIndex(bird => bird.id == req.params.id)
-    bird.bird[birdIndex] = {...newBird, id: req.params.id}
+//console.log(req.body)
+    const birdIndex = bird.Birds.find((birds) => birds.id == req.params.id)
+    //console.log(bird.Birds[birdIndex])
+
+
+    const props = Object.keys(birdIndex)
+    props.forEach((prop) => {
+      if (prop != 'id') {
+        birdIndex[prop] = req.body[prop]
+      }
+    })
+
+
+    // const birdIndex = birds.Birds.find((birds) => birds.id == req.params.id)
+    // bird.Birds[birdIndex] = {...newBird, id: req.params.id}
+    // console.log(bird.Birds[birdIndex])
+
+    
     const data = JSON.stringify(bird, null, 2)
     fs.writeFile(path.resolve('./data.json'), data, (err) => {
       console.log(err)

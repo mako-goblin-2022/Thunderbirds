@@ -1,38 +1,43 @@
 {
   "Birds": [
-    { "id": 1,
-      "name": "Daffy Duck",
+    {
+      "id": 1,
+      "name": "Daffy  Duck",
       "cartoon": "yes",
       "image": "/images/Daffy.png",
       "location": "USA",
       "flight_Speed": "None",
-      "size": 3.5 
+      "size": "3.5"
     },
-    { "id": 2,
-      "name": "Donald Duck",
+    {
+      "id": 2,
+      "name": "Donald Ducky",
       "cartoon": "yes",
-      "image": "/images/donald.png",
       "location": "USA",
-      "flight_Speed": "None",
-      "size": 3
+      "image": "/images/donald.png",
+      "flight_Speed": "max speed",
+      "size": "3"
     },
-    { "id": 3,
+    {
+      "id": 3,
       "name": "Woody Woodpecker",
       "cartoon": "yes",
       "image": "/images/Woody.png",
       "location": "USA",
       "flight_Speed": "None",
-      "size": 3.5 
+      "size": 3.5
     },
-    { "id": 4,
+    {
+      "id": 4,
       "name": "Tweety Bird",
       "cartoon": "yes",
       "image": "/images/tweety.jpg",
       "location": "USA",
       "flight_Speed": 50,
-      "size": 1 
+      "size": 1
     },
-    { "id": 5,
+    {
+      "id": 5,
       "name": "Emperor Penguin",
       "cartoon": "No",
       "image": "/images/emporer_Penguin.jpg",
@@ -40,15 +45,17 @@
       "flight_Speed": 9,
       "size": 11
     },
-    { "id": 6,
+    {
+      "id": 6,
       "name": " pīwakawaka",
       "cartoon": "No",
       "image": "/images/pīwakawaka.jpg",
       "location": "New Zealand",
       "flight_Speed": "N/A",
-      "size": 0.5 
+      "size": 0.5
     },
-    { "id": 7,
+    {
+      "id": 7,
       "name": "Lovebird",
       "cartoon": "yes",
       "image": "/images/Lovebird.jpg",
@@ -56,7 +63,8 @@
       "flight_Speed": 30,
       "size": 0.51
     },
-    { "id": 8,
+    {
+      "id": 8,
       "name": "Peacock",
       "cartoon": "No",
       "image": "/images/peacock.jpg",
