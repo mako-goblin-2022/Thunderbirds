@@ -7,6 +7,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 100px;
 }
 
 .app {
@@ -19,29 +20,32 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 50px;
+  
 }
 
 .bird {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 50px;
+  margin: 150px;
 }
 
 .img-circle {
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: contain;
   width: 230px;
   height: 230px;
 }
 
 .title {
   text-align: center;
+  font-size: 80px;
 }
 
 .nav {
   text-align: center;
   color: black;
+  font-size: 30px;
 }
 
 .form {
