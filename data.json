@@ -2,10 +2,10 @@
   "Birds": [
     {
       "id": 1,
-      "name": "Daffy  Duck",
+      "name": "Daffy",
       "cartoon": "yes",
       "image": "/images/Daffy.png",
-      "location": "USA",
+      "location": "In my head",
       "flight_Speed": "None",
       "size": "3.5"
     },
